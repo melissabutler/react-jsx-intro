@@ -11,7 +11,7 @@ function Person(props) {
     } else {
         reply = "You must be 18 to vote"
     }
-    console.log(props.hobbies)
+    // console.log(props.hobbies)
     return (
         <div>
             <p>Learn some information about this person.</p>
@@ -20,7 +20,7 @@ function Person(props) {
             <p>{reply}</p></h2>
             <h3>Hobbies:</h3>
             <ul>
-                {props.hobbies.map(hobby => (<li>{hobby}</li>))}
+                {/* {props.hobbies.map(hobby => <li>{hobby}</li>)} */}
             </ul>
         </div>
     )
