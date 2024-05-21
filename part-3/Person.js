@@ -20,7 +20,7 @@ function Person(props) {
             <p>{reply}</p></h2>
             <h3>Hobbies:</h3>
             <ul>
-                {/* {props.hobbies.map(hobby => <li>{hobby}</li>)} */}
+                {props.hobbies.map(hobby => <li>{hobby.text}</li>)}
             </ul>
         </div>
     )
